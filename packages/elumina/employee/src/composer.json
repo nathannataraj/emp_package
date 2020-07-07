@@ -1,0 +1,24 @@
+{
+    "name": "nathan/src",
+    "description": "elumina employee management",
+    "authors": [
+        {
+            "name": "Nathan",
+            "email": "nathannataraj@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Elumina\\Employee\\EmployeeServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Elumina\\Employee\\": "src/"
+        }
+    }
+}
